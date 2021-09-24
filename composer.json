@@ -1,0 +1,14 @@
+{
+  "require": {
+    "mongodb/mongodb": "^1.9",
+    "doctrine/orm": "^2.6.2",
+    "symfony/yaml": "2.*",
+    "spatie/async": "^1.5",
+    "vlucas/phpdotenv": "^5.3"
+  },
+  "autoload": {
+      "psr-4": { "": "test.php/" },
+      "classmap": ["client", "server", "vendor"],
+      "files": ["client/util/logger.php", "client/util/functions.js", "client/util/functions.php"]
+  }
+}
