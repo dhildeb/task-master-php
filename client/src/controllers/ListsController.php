@@ -10,9 +10,10 @@ class ListsController{
   $this->db = new DBfunctions();
   }
 
+  
   public function createList(){
-    $listName = $_POST["listName"];
-    $listColor = $_POST["listColor"];
+    $listName = htmlspecialchars($_POST["listName"] ?? '', ENT_QUOTES);
+    $listColor = htmlspecialchars($_POST["listColor"] ?? '', ENT_QUOTES);
     $id = uniqid();
   
     $newList = ["name" => $listName, "color" => $listColor, "id" => $id];
