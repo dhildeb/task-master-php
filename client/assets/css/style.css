@@ -8,3 +8,7 @@ a{
   text-decoration: none;
   color: black;
 }
+.list-h{
+  max-height: 175px;
+  overflow: hidden;
+}

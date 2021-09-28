@@ -1,40 +1,19 @@
-                 <!-- Modal -->
-                 <div class='modal fade' id='listModal' tabindex='-1' role='dialog' aria-labelledby='listModal'
-                   aria-hidden='true'>
-                   <div class='modal-dialog' role='document'>
-                     <div class='modal-content'>
-                       <div class='modal-header'>
-                         <h5 class='modal-title' id='listModal'>Modal title</h5>
-                         <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
-                           <span aria-hidden='true'>&times;</span>
-                         </button>
-                       </div>
-                       <div class='modal-body'>
-                         ...
-                       </div>
-                       <div class='modal-footer'>
-                         <button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
-                         <button type='button' class='btn btn-primary'>Save changes</button>
-                       </div>
-                     </div>
-                   </div>
-                 </div>
+ <!-- Optional JavaScript; choose one of the two! -->
 
-                 <!-- Optional JavaScript; choose one of the two! -->
+ <!-- Option 1: Bootstrap Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+ </script>
 
-                 <!-- Option 1: Bootstrap Bundle with Popper -->
-                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-                   integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-                   crossorigin="anonymous">
-                 </script>
-                 <script type="text/javascript" src="../util/functions.js"></script>
-                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                 <!-- Option 2: Separate Popper and Bootstrap JS -->
-                 <!--
+ <!-- Option 2: Separate Popper and Bootstrap JS -->
+ <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     -->
 
-                 </body>
+ </body>
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-                 </html>
+ </html>

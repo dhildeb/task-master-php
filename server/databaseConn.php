@@ -1,6 +1,5 @@
 <?php
 require '../../vendor/autoload.php';
-include_once '../../client/util/logger.php';
 
 class DBfunctions{
 
