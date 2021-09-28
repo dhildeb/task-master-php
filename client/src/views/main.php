@@ -41,12 +41,12 @@ if(isset($_POST['deleteTask'])){
     <?php 
       foreach($lists as $list){
       echo "<div class='col-md-4 col-sm-6 mb-3'>
-              <div class='card' onclick='openModal(`$list->id`)'>
+              <div class='card'>
                 <div class='card-header d-flex justify-content-between' style='background-color: $list->color;";
                     if(get_brightness($list->color) < 130){
                       echo "color: white";
                     }
-                echo  "'>
+                echo  "' onclick='openModal(`$list->id`)'>
                   <p>$list->name</p> 
                   <form action='' method='post' id='deleteList'>
                     <input type='hidden' name='id' value='$list->id'>
@@ -64,7 +64,7 @@ if(isset($_POST['deleteTask'])){
                           echo " name='check' onchange='submit()'>
                           <input type='hidden' name='id' value='$task->id'>
                         </form>
-                        <p class='ml-3'>$task->body</p>
+                        <p class='ml-3 w-100' onclick='openModal(`$list->id`)'>$task->body</p>
                         
                           <form action='' method='post'>
                             <input type='hidden' name='taskId' value='$task->id'>
@@ -157,6 +157,7 @@ function openModal(listId){
       'Your file has been deleted.',
       'success'
       )
+      // use axios to send http post to trigger php create TODO
       const form = document.getElementById("deleteList")
       console.log(form)
       form.method = 'post'
